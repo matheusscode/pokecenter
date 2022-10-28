@@ -37,7 +37,7 @@ export const PokemonImage = styled.div`
     height: 200px;
     border-radius: 30%;
     padding: 30px;
-    background-color: orange;
+    background-image: linear-gradient(-50deg, #ff0000, orange, transparent);
     transition: 0.4s;
   }
 `;
@@ -75,11 +75,6 @@ export const PokemonType = styled.div`
     text-transform: uppercase;
   }
 
-  button:hover {
-    color: #fff;
-    background-color: rgba(157, 255, 0, 0.452);
-  }
-
   .options__container {
     button {
       position: absolute;
@@ -95,6 +90,11 @@ export const PokemonType = styled.div`
       padding: 10px;
       font-size: 1.2rem;
       transition: 0.3s;
+    }
+
+    button:hover {
+      color: #fff;
+      background-color: rgba(157, 255, 0, 0.452);
     }
 
     a {

@@ -14,10 +14,7 @@ export const Header = (props) => {
       <C.Nav>
         <ul>
           <li>
-            <Link to="/">Início</Link>
-          </li>
-          <li>
-            <Link to="/pokedex">Pokedex</Link>
+            <Link to="/">Pokedex</Link>
           </li>
           <li>
             <Link to="/favoritos">Favoritos</Link>

@@ -11,7 +11,7 @@ export const Bar = styled.div`
   align-items: center;
 
   input {
-    padding: 11px 13px;
+    padding: 11px 15px;
     margin: 0 10px;
     font-size: 1.1rem;
     width: 250px;

@@ -3,7 +3,14 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 
   body {
-    background-color: ${props => props.theme.body};
+    background-color: ${(props) => props.theme.body};
   }
-`
-export default GlobalStyles
+
+  
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+`;
+export default GlobalStyles;

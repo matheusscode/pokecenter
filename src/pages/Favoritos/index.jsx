@@ -44,7 +44,7 @@ export const Favoritos = () => {
                 />
 
                 <div className="options__container">
-                  <Link to="/pokemon">Detalhes</Link>
+                  <Link to={`/pokemon/${item.id}`}>Detalhes</Link>
                   <C.DeleteButton onClick={() => deletePokemon(item.id)}>
                     Excluir
                   </C.DeleteButton>

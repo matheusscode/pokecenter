@@ -16,7 +16,7 @@ import { getPokemons, getPokemonData, searchPokemon } from "../../services/api";
 import * as C from "./styles";
 
 //Images
-import LoadingIMG from "../../../public/assets/icons/pokeball-black.png";
+import LoadingIMG from "/assets/icons/pokeball-black.png";
 
 export const Pokedex = (props) => {
   const [page, setPage] = useState(0);
@@ -88,7 +88,7 @@ export const Pokedex = (props) => {
   }
 
   return (
-    <C.Pokedex>
+    <C.Pokedex id="started">
       <C.PokedexHeader>
         <Link to="/" className="Title">
           Pokedex
@@ -119,7 +119,9 @@ export const Pokedex = (props) => {
         </C.PokedexGrid>
       )}
 
-      <a href="#header" className="scroll__up">Scroll Up</a>
+      <a href="#started" className="scroll__up">
+        Scroll Up
+      </a>
     </C.Pokedex>
   );
 };

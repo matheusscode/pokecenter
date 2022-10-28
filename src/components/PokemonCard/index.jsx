@@ -46,7 +46,7 @@ export const PokemonCard = (props) => {
               {pokemon.types.map((type, index) => {
                 return (
                   <div key={index} className="options__container">
-                    <Link to="/pokemon">Detalhes</Link>
+                    <Link to={`/pokemon/${pokemon.id}`}>Detalhes</Link>
                     <button onClick={savePokemon}>Salvar</button>
                   </div>
                 );

@@ -29,7 +29,11 @@ export const Pokedex = styled.div`
   }
 
   .scroll__up:hover {
-    color:rgb(157, 255, 0);
+    color: rgb(157, 255, 0);
+  }
+
+  @media (max-width: 720px) {
+    padding-top: 100px;
   }
 `;
 

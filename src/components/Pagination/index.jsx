@@ -10,7 +10,7 @@ export const Pagination = (props) => {
   return (
     <C.Pagination>
       <C.Button onClick={onLeftClick}>
-        <BsFillArrowLeftCircleFill className="button-click"/>
+        <BsFillArrowLeftCircleFill className="button-click" />
       </C.Button>
       <C.InfoPages>
         {page} de {totalPages}

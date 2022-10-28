@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Favorites = styled.div`
-  margin: 60px auto;
+  margin: 50px auto;
 
   .empty-title {
     color: ${(props) => props.theme.color};
@@ -29,11 +29,16 @@ export const Favorites = styled.div`
       background-color: rgba(157, 255, 0, 0.452);
     }
   }
+
+  @media (max-width: 720px) {
+    padding-top: 100px;
+  }
 `;
 
 export const TitleFavorites = styled.h1`
   margin: 0 auto;
   text-align: center;
+  font-size: 2.4rem;
   text-shadow: 1px 1px 1px black;
   background-color: ${(props) => props.theme.bgTitle};
   max-width: 350px;

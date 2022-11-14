@@ -75,17 +75,17 @@ export const PokemonPage = styled.div`
 `;
 
 export const PokemonImg = styled.div`
-  padding: 50px;
+  width: 350px;
+  border-radius: 25%;
+  transition: 0.5s;
 
   img {
-    width: 350px;
-    transition: 0.5s;
-    background-image: linear-gradient(-50deg, #ff0000, orange, transparent);
+    width: 100%;
     padding: 20px;
     border-radius: 30%;
   }
 
-  img:hover {
+  &:hover {
     transform: scale(1.06);
   }
 

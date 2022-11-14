@@ -119,7 +119,7 @@ export const Pokedex = (props) => {
         </C.PokedexGrid>
       )}
 
-      <a href="#started" className="scroll__up">
+      <a href="#header" className="scroll__up">
         Scroll Up
       </a>
     </C.Pokedex>

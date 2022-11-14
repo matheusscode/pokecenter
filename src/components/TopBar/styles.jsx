@@ -28,6 +28,10 @@ export const Header = styled.header`
   }
 `;
 
+export const Title = styled.h1`
+  
+`;
+
 export const Nav = styled.nav`
   ul {
     list-style-type: none;

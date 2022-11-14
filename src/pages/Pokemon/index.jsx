@@ -28,7 +28,7 @@ export const Pokemon = () => {
             <ImExit />
           </Link>
           <C.PokemonImg>
-            <img src={pokemon.sprites.other.dream_world.front_default} alt="" />
+            <img title={pokemon.name} src={pokemon.sprites.other.dream_world.front_default} alt="" />
           </C.PokemonImg>
           <C.PokemonInfo>
             <h2>

@@ -32,11 +32,13 @@ export const PokemonCard = styled.div`
 export const Card = styled.div``;
 
 export const PokemonImage = styled.div`
+  max-width: 200px;
+
   img {
-    width: 200px;
+    width: 100%;
     height: 200px;
-    border-radius: 30%;
-    padding: 30px;
+    border-radius: 25%;
+    padding: 10px 30px;
     background-image: linear-gradient(-50deg, #ff0000, orange, transparent);
     transition: 0.4s;
   }
